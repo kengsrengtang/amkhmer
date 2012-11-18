@@ -2,7 +2,7 @@ require "bundler/capistrano"
 server "54.243.42.42", :web, :app, :db, primary: true
 
 set :application, "amkhmer"
-set :user, "deployer"
+set :user, "ubuntu"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
