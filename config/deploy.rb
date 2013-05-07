@@ -1,5 +1,5 @@
 require "bundler/capistrano"
-server "54.243.42.42", :web, :app, :db, primary: true
+server "ec2-54-225-14-120.compute-1.amazonaws.com", :web, :app, :db, primary: true
 
 set :application, "amkhmer"
 set :user, "deployer"
