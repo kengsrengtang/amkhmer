@@ -18,5 +18,5 @@ production:
   encoding: utf8
   database: amkhmer_production
   pool: 5
-  username: amkhmer
+  username: root
   password:
